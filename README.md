@@ -77,6 +77,6 @@ Para instalar Node.js, sigue estos pasos:
 
 ## Conclusiones
 - Este proyecto demuestra el uso de Node.js y varias librerías para desarrollar una aplicación backend robusta. Si tienes alguna pregunta o necesitas más información, no dudes en contactarme.
-- Aunque el requirimiento principal es la aplicación backend, se añadieron el uso de los handlebars para la vista al usuario, sin embargo, se pueden realizar los consumos de los endpoints con alguna herramienta  de cliente como Postman o Insomnia (revisar directorio **external-resources**).
+- Se pueden realizar los consumos de los endpoints con alguna herramienta  de cliente como Postman o Insomnia (revisar directorio **external-resources**).
     ```
     Este archivo `README.md` proporciona una guía clara y estructurada para la instalación, estructura y uso del proyecto
