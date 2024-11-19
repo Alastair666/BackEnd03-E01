@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { mockingUsers } from '../controllers/mocks.controller.js'
+import { mockingUsers, mockingPets, generateData } from '../controllers/mocks.controller.js'
 
 const router = Router()
 
@@ -7,7 +7,13 @@ const router = Router()
  * Endpoint encargado de generar 50 usuarios
  * **/
 router.get('/mockingusers/:num', mockingUsers)
-
-//router.post('/generateData')
+/** GET 
+ * Endpoint encargado de generar 100 mascotas
+ * **/
+router.get('/mockingpets/:num', mockingPets)
+/** POST 
+ * Endpoint encargado de generar los datos en BD
+ * **/
+router.post('/generateData/:users/:pets', generateData)
 
 export default router

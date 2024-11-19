@@ -24,3 +24,15 @@ export const generateUser = () => {
         pets: []
     }
 }
+/**
+ * Funciones de generación de datos (Mocks)
+ * **/
+export const generatePet = () => {
+    return {
+        name : faker.person.firstName(),
+        specie : faker.animal.type(), // Genera una especie de animal 
+        birthDate : faker.date.past(10, new Date()), // Genera una fecha de nacimiento en los últimos 10 años 
+        adopted : Math.random() >= 0.5, // Genera un valor booleano aleatorio 
+        owner : null // El valor por defecto es null
+    }
+}
